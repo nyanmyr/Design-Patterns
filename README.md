@@ -5,6 +5,7 @@
   <p>
     This project is a personal collection of implementations of the Gang of Four (GoF) design patterns using Java.
     Each pattern is implemented as simply as possible, with the intention of serving as a reference or refresher.
+    The code is structured in snippets for a quick review.
     <br>
     <br><i>NOTE: For clarity and ease of review, all classes are intentionally placed within a single source file. 
     <br>Additionally, the snippets are not meant to be copy pasted as is, but the main idea behind them is to for the architecture of the design pattern to be reused.</i>
