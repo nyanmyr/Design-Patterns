@@ -60,7 +60,7 @@ class LightArmor implements Armor {
 }
 
 // abstract factory interface
-interface SoldierBarracks {
+interface Barracks {
 
     Soldier createSoldier();
     Weapon createWeapon();
@@ -68,7 +68,7 @@ interface SoldierBarracks {
 }
 
 // concrete abstract factories
-class SwordsmanBarracks implements SoldierBarracks {
+class SwordsmanBarracks implements Barracks {
 
     public Soldier createSoldier() {
         return new Swordsman();
@@ -83,7 +83,7 @@ class SwordsmanBarracks implements SoldierBarracks {
     }
 }
 
-class ArcherBarracks implements SoldierBarracks {
+class ArcherBarracks implements Barracks {
 
     public Soldier createSoldier() {
         return new Archer();
@@ -103,8 +103,8 @@ public class AbstractFactory {
 
     public static void main(String[] args) {
 
-        SoldierBarracks swordsmanBarracks = new SwordsmanBarracks();
-        SoldierBarracks archerBarracks = new ArcherBarracks();
+        Barracks swordsmanBarracks = new SwordsmanBarracks();
+        Barracks archerBarracks = new ArcherBarracks();
 
         Soldier swordsman = swordsmanBarracks.createSoldier();
         Weapon sword = swordsmanBarracks.createWeapon();
