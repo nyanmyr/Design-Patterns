@@ -70,7 +70,7 @@
   <h2>
       COMPLETED IN ORDER
   </h2>
-  <i>Design patterns with checkmarks have descriptions. Progress on the others is halted until I complete the rest of design patterns.</i>
+  <i>Design patterns with checkmarks have descriptions. Descriptions on existing implementations, along with reviews, and fixes are currently a work in progress.</i>
   <ol>
     <li>Factory ✔</li>
     <li>Observer</li>
@@ -88,7 +88,7 @@
     <li>Prototype</li>
     <li>Adapter</li>
     <li>Template Method</li>
-    <li>Abstract Factory</li>
+    <li>Abstract Factory ✔</li>
     <li>Flyweight</li>
     <li>Visitor</li>
     <li>Bridge</li>
