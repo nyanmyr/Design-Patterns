@@ -33,7 +33,6 @@
 
 ## UML Diagram
 
-Inline-style: 
 ![alt text](FactoryUML.jpg "FactoryUML")
 
 ---
