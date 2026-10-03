@@ -16,7 +16,7 @@ interface Armor {
     void describe();
 }
 
-// product family products
+// concrete product family products
 class Swordsman implements Soldier {
 
     public void describe() {
@@ -63,9 +63,7 @@ class LightArmor implements Armor {
 interface SoldierBarracks {
 
     Soldier createSoldier();
-
     Weapon createWeapon();
-
     Armor createArmor();
 }
 
@@ -85,7 +83,6 @@ class SwordsmanBarracks implements SoldierBarracks {
     }
 }
 
-// concrete factories
 class ArcherBarracks implements SoldierBarracks {
 
     public Soldier createSoldier() {
@@ -101,6 +98,7 @@ class ArcherBarracks implements SoldierBarracks {
     }
 }
 
+// implementation
 public class AbstractFactory {
 
     public static void main(String[] args) {
